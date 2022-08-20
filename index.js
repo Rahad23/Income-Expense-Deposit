@@ -72,7 +72,7 @@ document.getElementById('submit').addEventListener('click', function(){
    const htmlTextConvart = htmlInnerTextToNumber('myCash');
 
    const discountInput = getIputValueToNumber('discount');
-   
+
    if(discountInput<0){
     alert("somethig rong");
     return;
@@ -122,8 +122,6 @@ document.getElementById('moneyAdd').addEventListener('click', function(){
             const myTotalMoney = inputValue + myTotalCash;
             setInnerText('myCash', myTotalMoney);
         }
-    
-   
 
     // console.log(inputValue + myTotalCash);
 
